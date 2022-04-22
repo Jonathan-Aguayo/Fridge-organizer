@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "fridge",
-    "slug": "fridge",
+    "name": "Simple Fridge Organizer",
+    "slug": "simple-fridge-organizer",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,11 +13,10 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jonathanaguayo.simple-fridge-organizer"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +26,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Simple application that allows users to keep track of their groceries by scanning the barcode and adding the item to their virtual fridge. ",
+    "githubUrl": "https://github.com/Jonathan-Aguayo/Fridge-organizer"
   }
 }
